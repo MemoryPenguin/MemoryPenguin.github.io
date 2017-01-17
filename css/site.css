@@ -1,0 +1,165 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Segoe UI", "San Francisco", "Helvetica Neue", sans-serif;
+}
+
+hr {
+	background-color: rgba(0, 0, 0, 0.2);
+	border: none;
+	height: 1px;
+	margin: 0.5em 0;
+}
+
+p {
+	margin-bottom: 0.75em;
+}
+
+.sidebar {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	right: 80%;
+	left: 0;
+	background-color: rgb(40, 40, 40);
+	padding: 1em;
+	color: rgb(230, 230, 230);
+}
+
+.sidebar-site-title {
+	margin-bottom: 0.5em;
+	display: block;
+}
+
+.sidebar a, a:visited {
+	color: hsl(200, 100%, 60%);
+	text-decoration: none;
+}
+
+.sidebar a:hover {
+	color: hsl(200, 100%, 70%);
+}
+
+.sidebar hr {
+	background-color: rgba(255, 255, 255, 0.2);
+}
+
+.sidebar-generator {
+	color: rgb(160, 160, 160);
+	font-size: 0.7em;
+	position: absolute;
+	bottom: 1em;
+	left: 1em;
+}
+
+.types-list {
+	list-style: none;
+}
+
+.types-list>li>a {
+	display: block;
+	box-sizing: border-box;
+	width: 100%;
+	padding: 0.5em;
+	background-color: rgb(30, 30, 30);
+	margin-bottom: 0.25em;
+}
+
+.types-list>li>a:hover {
+	background-color: rgb(60, 60, 60);
+}
+
+.types-list .types-list-icon {
+	background-image: url("/img/gh-mark.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 16px;
+	width: 16px;
+	display: inline-block;
+}
+
+.main {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 20%;
+	background-color: rgb(240, 240, 240);
+	padding: 2em;
+	line-height: 1.5em;
+	overflow-y: scroll;
+	overflow-x: wrap;
+	box-sizing: border-box;
+}
+
+.main a {
+	text-decoration: none;
+	color: hsl(200, 100%, 40%);
+}
+
+.main a:hover {
+	color: hsl(200, 100%, 50%);
+}
+
+.article-time, .article-permalink, .article-permalink:visited {
+	color: rgb(100, 100, 100);
+}
+
+.draft-alert {
+	background-color: rgb(236, 187, 46);
+	padding: 0.25em;
+	font-weight: bold;
+}
+
+.article-info {
+	margin: 0.5em 0;
+}
+
+.article-title {
+	font-size: 2em;
+	margin-bottom: 0.5em;
+}
+
+.read-more {
+	display: block;
+	font-weight: bold;
+}
+
+.callout {
+	display: block;
+	padding: 0 1em;
+}
+
+.callout-title {
+	font-size: 1.5em;
+	padding: 0.5em 0;
+}
+
+.callout-content {
+	padding: 0.5em 0;
+}
+
+.callout-warning {
+	background-color: rgb(236, 187, 46);
+}
+
+.callout-alert {
+	background-color: rgb(222, 95, 95);
+}
+
+.callout-success {
+	background-color: rgb(80, 179, 97);
+}
+
+.callout-info {
+	background-color: rgb(93, 178, 218);
+}
+
+.callout-separator {
+	width: 90%;
+	margin: auto;
+	background-color: rgba(0, 0, 0, 0.25);
+}

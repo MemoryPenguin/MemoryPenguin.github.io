@@ -1,0 +1,34 @@
+/* Syntax theme for Pygments */
+code {
+	background-color: rgb(48, 48, 48);
+	color: rgb(230, 230, 230);
+	padding: 0.5em;
+	display: block;
+	line-height: 1.25em;
+	tab-size: 4;
+}
+
+code .nb, .nf {
+	color: rgb(0, 189, 182);
+	font-weight: bold;
+}
+
+code .s2, .s, .s1, .se {
+	color: rgb(208, 146, 0)
+}
+
+code .k, .kd {
+	color: rgb(92, 162, 214);
+}
+
+code .c1, .cm {
+	color: rgb(97, 160, 102)
+}
+
+code .o, .p, .ow {
+	color: rgb(140, 204, 243);
+}
+
+code .mi, .kc {
+	color: rgb(170, 132, 218);
+}
